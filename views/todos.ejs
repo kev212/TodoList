@@ -1,0 +1,19 @@
+ <% include partials/header %>
+ <link rel="stylesheet" type="xt/css" href="assets/css/todos.css">
+    <div id="todos">
+      <h1 id="judul" >To-Do List <i class="fas fa-plus"></i></h1>
+      <form class="new" action="/addTodo" method="post">
+          <input id="tambah" type="text" name="activity" placeholder="Add New Todo">
+      </form>
+      <form class="" action="/remove" method="post">
+      <ul>
+        <% for(var i=0; i<todos.activity.length; i++){ %>
+            <li id="act" ><button id="hapus" value='<%=todos.activity[i]%>' name="activity" class="btn"><i class="far fa-trash-alt"></i></button><%=todos.activity[i]%></li>
+      <% }; %>
+      </form>
+        <!-- <li><span><i class="far fa-trash-alt"></i></span> Go To Campus</li>
+        <li><span><i class="far fa-trash-alt"></i></span> Buy Food</li> -->
+      </ul>
+    </div>
+
+ <% include partials/footer %>

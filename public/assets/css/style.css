@@ -1,0 +1,149 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.nav-top {
+  background: #f7f7f7;
+}
+
+nav .brand-logo{
+  color: #3A1C71;
+}
+
+nav ul a {
+  color: #3A1C71;
+}
+
+.page-footer{
+  background: #f8f9fa;
+}
+
+/* nav ul a:hover {
+  background: #3A1C71;
+  color: #fff;
+} */
+
+.prpl-text{
+  color: #3A1C71;
+}
+
+#todos{
+  width: 360px;
+  margin: 150px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}
+
+#login-title {
+  font-size: 24px;
+}
+
+.login {
+  width: 480px;
+  margin: 150px auto;
+  padding: 20px;
+  background: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}
+
+.register {
+  width: 480px;
+  margin: 150px auto;
+  padding: 20px;
+  background: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+}
+
+#judul{
+  background: #3A1C71;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.fa-plus{
+  float: right;
+}
+
+#hapus{
+  background: #e74c3c;
+  height: 40px;
+  text-align : center;
+  padding: 0;
+  margin-right: 20px;
+  color: white;
+  width: 0;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+  border: 0 solid rgba(0,0,0,0);
+}
+
+li:hover #hapus {
+  width: 40px;
+  opacity: 1.0;
+  margin-right : 20px;
+}
+
+body{
+  background: #3A1C71;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3A1C71, #D76D77, #FFAF7B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3A1C71, #D76D77, #FFAF7B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body{
+  font-family: 'Roboto';
+}
+
+#act{
+  background: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+#act:nth-child(2n){
+  background: #f7f7f7;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#tambah{
+  font-size: 18px;
+  color: #3A1C71;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+#tambah:focus{
+  background: #fff;
+  border: 3px solid #3A1C71;
+  outline: none;
+}
+
+.completed{
+  color: gray;
+  text-decoration: line-through;
+}
