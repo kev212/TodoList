@@ -39,7 +39,7 @@ nav ul a {
 }
 
 #todos{
-  width: 360px;
+  width: 30%;
   margin: 150px auto;
   background: #f7f7f7;
   box-shadow: 0 0 10px rgba(0,0,0, 0.1);
@@ -50,7 +50,7 @@ nav ul a {
 }
 
 .login {
-  width: 480px;
+  width: 40%;
   margin: 150px auto;
   padding: 20px;
   background: #f7f7f7;
@@ -58,7 +58,7 @@ nav ul a {
 }
 
 .register {
-  width: 480px;
+  width: 40%;
   margin: 150px auto;
   padding: 20px;
   background: #f7f7f7;

@@ -151,4 +151,4 @@ function isLoggedIn_(req, res, next){
   next();
 }
 
-app.listen(process.env.PORT, console.log("Server Started!"));
+app.listen(prosess.env.PORT,console.log("Server Started!"));
